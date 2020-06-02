@@ -3,9 +3,10 @@
 @import './utilities/_mixins';
 @import "./utilities/_vars";
 @import './utilities/_fonts';
-@import './global';
+@import './_global';
 
  
 /* blocks */
 @import "./blocks/header";
+@import "./blocks/bag";
 @import "./blocks/footer";

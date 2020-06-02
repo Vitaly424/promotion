@@ -1,0 +1,35 @@
+.bag{
+   padding-top: 367px;
+}
+
+.bag__title{
+   max-width: 1475px;
+   margin-left: auto;
+   margin-right: auto;
+
+   font-weight: 700;
+   font-size: 80px;
+   line-height: 1.17;
+   text-align: center;
+   background: linear-gradient(73.38deg, #D72828 4.27%, #EE7D14 84.56%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.bag__desk{
+   margin-top: 20px;
+   max-width: 750px;
+   margin-left: auto;
+   margin-right: auto;
+
+   font-size: 25px;
+   line-height: 30px;
+   text-align: center;
+   color: #828282;
+}
+
+@media (max-width: 1419px){
+   .bag__title{
+      font-size: 40px;
+   }
+}
