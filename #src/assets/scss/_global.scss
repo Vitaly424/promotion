@@ -82,6 +82,10 @@ ul li{
    }
 }
 
+.none{
+   display: none;
+}
+
 .container{
    @include min-max(320px, 1650px, 15px); 
 }
