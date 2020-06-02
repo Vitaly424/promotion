@@ -1,0 +1,11 @@
+// utilities
+@import "./utilities/_normalize";
+@import './utilities/_mixins';
+@import "./utilities/_vars";
+@import './utilities/_fonts';
+@import './global';
+
+ 
+/* blocks */
+@import "./blocks/header";
+@import "./blocks/footer";
