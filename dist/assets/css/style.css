@@ -683,8 +683,8 @@ ul li {
     margin-bottom: 10px; } }
 
 .skills {
-  margin-top: 190px;
-  margin-bottom: 1500px;
+  margin-top: 50px;
+  margin-bottom: 1400px;
   position: relative; }
 
 .skills__img {
@@ -747,7 +747,7 @@ ul li {
 
 @media (max-width: 1600px) {
   .skills {
-    margin-top: -21px; }
+    margin-bottom: 900px; }
   .skills__inner {
     position: relative;
     max-width: 968px;
