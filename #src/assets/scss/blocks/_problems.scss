@@ -1,0 +1,243 @@
+.problems{ 
+  
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+.problems__row{
+   position: relative;
+}
+
+.problems__title{
+   margin-bottom: 78px;
+
+   font-weight: 500;
+   font-size: 80px;
+   line-height: 1;
+   background: linear-gradient(73.38deg, #D72828 4.27%, #EE7D14 84.56%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+
+
+.problems__item-title{
+   margin-bottom: 10px;
+
+   font-weight: 500;
+   font-size: 40px;
+   line-height: 1.17;
+   color: $curiousBlue;
+}
+
+.problems__desk{
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 30px;
+   line-height: 1.16;
+   color: $grayTwo;
+}
+
+ 
+.problems__item-1{
+   position: absolute;
+   left: 0;
+   top: 0;
+
+
+   .problems__item-arrow{
+      position: absolute;
+      left: 850px;
+      top: -28px;
+   }
+   .problems__item-title{
+      color: #2D9CDB;
+   }
+   .problems__desk{
+      max-width: 771px;
+   }
+}
+
+.problems__item-2{
+   position: absolute;
+   left: 922px;
+   top: 194px;
+
+   .problems__item-arrow{
+      position: absolute;
+      left: -614px;
+      top: 11px;
+   }
+   .problems__item-title{
+      color: #F2994A;
+   }
+   .problems__desk{
+      max-width: 784px;
+   }
+}
+
+.problems__item-3{
+   position: absolute;
+   left: 46px;
+   top: 317px;
+
+   .problems__item-arrow{
+      position: absolute;
+      left: 383px;
+      top: 192px;
+   }
+   .problems__item-title{
+      color: #EB5757
+   }
+   .problems__desk{
+      max-width: 626px;
+   }
+}
+
+.problems__item-4{
+   position: absolute;
+   left: 447px;
+   top: 592px;
+
+   .problems__item-title{
+      color:  #00B372;
+   }
+   .problems__desk{
+      max-width: 851px;
+   }
+}
+
+
+.problems__btn{
+   margin-top: 940px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 251px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+
+   cursor: pointer;
+   border: 1px solid #27AE60;
+   box-sizing: border-box;
+   border-radius: 33px;
+
+   text-align: center;
+   font-size: 24px;
+   line-height: 1;
+   color: #27AE60;
+
+   transition: background-color .2s linear, color .2s linear;
+   &:hover{
+      color: $white;
+      background-color: #27AE60;
+   }
+}
+
+@media (max-width: 1498px){
+   .problems__btn{
+      margin-top: 1073px;
+   }
+
+   .problems__title{
+      margin-bottom: 33px;
+
+      font-size: 40px;
+   }
+   .problems__item-title{
+      font-size: 30px;
+   }
+   
+
+   
+   .problems__item-1{
+      .problems__desk{
+         max-width: 687px;
+      }
+      .problems__item-arrow{
+         width: 227px;
+         left: 663px;
+         top: -22px;
+      }
+   }
+   .problems__item-2{
+      left: 454px;
+      top: 195px;
+      .problems__item-title{
+         max-width: 584px
+      }
+      .problems__desk{
+         max-width: 717px;
+      }
+      
+      .problems__item-arrow{
+         width: 271px;
+         left: -315px;
+         top: 131px;
+      }
+   }
+ 
+   .problems__item-3{
+      left: 46px;
+      top: 478px;
+
+      .problems__item-arrow{
+         left: 383px;
+         top: 157px;
+      }
+   }
+   .problems__item-4{
+      left: 264px;
+      top: 732px;
+      .problems__item-title{
+         max-width:  599px;
+      }
+   }
+}
+
+@media (max-width: 968px){
+   .problems{
+      padding-top: 30px;
+      padding-bottom: 30px;
+   }
+   .problems__title{
+      text-align: center;
+   }
+   .problems__item{
+      margin-bottom: 20px;
+   }
+   .problems__item-title{
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+   }
+   .problems__desk{
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+   }
+   .problems__item{
+      position: static;
+   }
+   .problems__item-arrow{
+      display: none;
+     
+   }
+   .problems__btn{
+      margin-top: 20px;
+   }
+}
+
+@media (max-width: 460px){
+   .problems__title{
+      margin-bottom: 15px;
+
+      font-size: 27px;
+   }
+   .problems__item-title{
+      font-size: 22px;
+   }
+   .problems__desk{
+      font-size: 18px;
+   }
+}

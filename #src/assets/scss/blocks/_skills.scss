@@ -1,5 +1,6 @@
 .skills{
    margin-top: 190px;
+   margin-bottom: 1500px;
    position: relative;
 }
 
@@ -143,7 +144,9 @@
 }
 
 @media (max-width: 950px){
- 
+   .skills  {
+      margin-bottom: 0;
+   }
    .skills__arrow1{
       display: none
     }

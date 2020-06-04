@@ -127,6 +127,7 @@
    }
 }
 
+ 
 @media (max-width: 1221px){
    .nav__item:not(:last-child){
       margin-right: 20px;
@@ -136,12 +137,9 @@
          width: 200px;
       }
    }
-}
-
-@media (max-width: 1216px){
    .header__content{
-      top: 246px;
-   }   
+      top: 248px;
+   }
 }
 
 @media (max-width: 992px){
