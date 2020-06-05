@@ -497,7 +497,7 @@ ul li {
 
 .header__content {
   position: relative;
-  top: 225px; }
+  top: 242px; }
 
 .header__content-title {
   margin-bottom: 40px;
@@ -590,15 +590,15 @@ ul li {
 
 @media (max-width: 1394px) {
   .header__phone a {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .header__content {
+    top: 260px; } }
 
 @media (max-width: 1221px) {
   .nav__item:not(:last-child) {
     margin-right: 20px; }
   .header__logo img {
-    width: 200px; }
-  .header__content {
-    top: 248px; } }
+    width: 200px; } }
 
 @media (max-width: 992px) {
   .nav__list {
@@ -654,13 +654,13 @@ ul li {
   .header__content-title {
     font-size: 53px; }
   .header__content {
-    top: 311px; } }
+    top: 324px; } }
 
 @media (max-width: 768px) {
   .header {
     min-height: 396px; }
   .header__content {
-    top: 177px; } }
+    top: 186px; } }
 
 @media (max-width: 650px) {
   .header__content {
@@ -689,7 +689,7 @@ ul li {
     display: none;
     width: 100px; }
   .header__content {
-    top: 214px; }
+    top: 179px; }
   .header__content-title {
     font-size: 26px; }
   .header__btn button {
@@ -699,6 +699,10 @@ ul li {
     min-height: 344px; }
   .header__content-title {
     margin-bottom: 20px; } }
+
+@media (max-width: 332px) {
+  .header__content {
+    top: 191px; } }
 
 .bag {
   padding-top: 367px; }
