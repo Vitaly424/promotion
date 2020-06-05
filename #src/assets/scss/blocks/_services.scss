@@ -215,20 +215,12 @@
          left: -800px;
       }
    }
+
+   
 }
 
 @media (max-width: 1231px){
-   .services__item-4{
-      max-width: 594px;
-      padding-top: 20px;
-     
-      img{
-         max-width: 299px;
-         // max-width: 300px;
-         top: 0;
-         right: -342px;
-      }
-   }
+ 
    .services__item-5{
       max-width: 691px;
       img{
@@ -243,6 +235,18 @@
       img{
          max-width: 400px;
          left: -360px;
+      }
+   }
+
+   .services__item-4{
+      max-width: 594px;
+      padding-top: 20px;
+     
+      img{
+         max-width: 299px;
+         // max-width: 300px;
+         top: 0;
+         right: -342px;
       }
    }
 }

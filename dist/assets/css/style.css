@@ -1382,13 +1382,6 @@ ul li {
     left: -800px; } }
 
 @media (max-width: 1231px) {
-  .services__item-4 {
-    max-width: 594px;
-    padding-top: 20px; }
-    .services__item-4 img {
-      max-width: 299px;
-      top: 0;
-      right: -342px; }
   .services__item-5 {
     max-width: 691px; }
     .services__item-5 img {
@@ -1397,7 +1390,14 @@ ul li {
 @media (max-width: 1221px) {
   .services__item-3 img {
     max-width: 400px;
-    left: -360px; } }
+    left: -360px; }
+  .services__item-4 {
+    max-width: 594px;
+    padding-top: 20px; }
+    .services__item-4 img {
+      max-width: 299px;
+      top: 0;
+      right: -342px; } }
 
 @media (max-width: 968px) {
   .services {
